@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0" />
+    <title>Plus Builders LTD</title>
+    <!--------- add favicon------>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Construction Services</h1>
+    </section>
+
+    <!----------Construction Services Section----------->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>New Construction</h1>
+
+          <p>
+            We offer a wide variety of construction services to meet the client
+            needs. Whether renovating an existing building, construction of a
+            new building, or installing a new roof, we have the project team to
+            meet your goals.
+          </p>
+          <h4>Design Build</h4>
+          <p>
+            The design build method of project delivery is one in which the
+            owner contracts with PLUS BUILDERS Construction Services as the sole
+            entity responsible for the complete design and construction of the
+            project. As a Design Builder, PB will work directly with the owner
+            in regards to achieving his/her vision for the end-product. PB is
+            responsible to assemble a team of qualified engineers that are best
+            suited to translate the owner’s vision into a viable building
+            design. After such a design is achieved, PB will be responsible for
+            the sub-contractor contracting. Upon successful completion of
+            permitting requirements, PB Construction Services directly
+            administrates and manages all aspects of construction, which allows
+            us to work towards consolidation of the project timelines as we move
+            quickly towards project completion.
+          </p>
+          <h4>General Contracting</h4>
+          <p>
+            PB Construction Services provides a variety of General Contracting
+            services throughout Rwanda. We are proud to provide general
+            contracting services for all stages of construction from
+            Pre-construction Services such as Project Scheduling, Estimating,
+            Value Engineering, Constructability Reviews, Permitting and more.
+            Our management services can provide overview of a project from start
+            to finish including small and medium projects.
+          </p>
+          <h4>Construction Management</h4>
+          <p>
+            We work in the owner’s best interests through every phase of the
+            project from conceptualization through final project turnover. PB
+            does not act as a consultant to the owner, but performs the work of
+            a general contractor during the construction phase. Our construction
+            management services include scheduling, plan review, quality control
+            assurance, new construction, building additions, building
+            renovations, design-build, and tenant finish outs.
+          </p>
+          <a href="contact.html" class="hero-btn red-btn">GET A QUOTE</a>
+        </div>
+        <div class="about-col">
+          <img src="img/constructon-cover.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!------- Footer -------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Builders Who Serve You and Your Community.</p>
+      <div class="icons">
+        <a href="https://web.facebook.com/PlusBuildersRw" target="_blank"
+          ><i class="fa fa-facebook fa-2x"></i
+        ></a>
+        <a href="https://twitter.com/PlusBuilders250" target="_blank"
+          ><i class="fa fa-twitter fa-2x"></i
+        ></a>
+        <a href="https://www.instagram.com/plusbuildersrw/" target="_blank"
+          ><i class="fa fa-instagram fa-2x"></i
+        ></a>
+      </div>
+      <h4>Contact Us</h4>
+      <div>
+        <h4>0788682030 / 0788421347</h4>
+        <p>
+          <a href="mailto:plusbuildings@gmail.com" class="app-logo"
+            >Send us an email</a
+          >
+        </p>
+
+        <h4></h4>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Serge Cyiza</p>
+    </section>
+
+    <!-----JavaScript for Toggle Menu-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
